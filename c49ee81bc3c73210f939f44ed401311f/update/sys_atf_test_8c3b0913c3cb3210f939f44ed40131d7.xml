@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>BR clamps: min valid inputs give exactly 1, never &lt;1</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>NEG-01: Priority Cannot Fall Below 1 (Min Clamp)</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 03:58:15</sys_created_on>
+        <sys_id>8c3b0913c3cb3210f939f44ed40131d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NEG-01: Priority Cannot Fall Below 1 (Min Clamp)</sys_name>
+        <sys_package display_value="Incident Priority Automation" source="x_667430_inciden_0">c49ee81bc3c73210f939f44ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Priority Automation">c49ee81bc3c73210f939f44ed401311f</sys_scope>
+        <sys_update_name>sys_atf_test_8c3b0913c3cb3210f939f44ed40131d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 03:58:15</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=8c3b0913c3cb3210f939f44ed40131d7"/>
+</record_update>

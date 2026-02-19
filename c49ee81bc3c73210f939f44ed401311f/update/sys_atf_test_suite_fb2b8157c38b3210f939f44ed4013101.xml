@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Full ATF coverage for US-01 through US-04: priority BR, UI Policy, client scripts, manager override UI actions.</description>
+        <input_filter/>
+        <name>Incident Priority Automation - ATF Tests</name>
+        <parent/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 03:58:14</sys_created_on>
+        <sys_id>fb2b8157c38b3210f939f44ed4013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incident Priority Automation - ATF Tests</sys_name>
+        <sys_package display_value="Incident Priority Automation" source="x_667430_inciden_0">c49ee81bc3c73210f939f44ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Priority Automation">c49ee81bc3c73210f939f44ed401311f</sys_scope>
+        <sys_update_name>sys_atf_test_suite_fb2b8157c38b3210f939f44ed4013101</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 03:58:14</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>
