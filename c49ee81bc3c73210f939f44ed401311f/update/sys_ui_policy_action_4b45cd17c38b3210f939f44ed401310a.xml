@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>priority</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>leave_alone</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 03:32:31</sys_created_on>
+        <sys_id>4b45cd17c38b3210f939f44ed401310a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="Incident Priority Automation" source="x_667430_inciden_0">c49ee81bc3c73210f939f44ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Priority Automation">c49ee81bc3c73210f939f44ed401311f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4b45cd17c38b3210f939f44ed401310a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 03:35:15</sys_updated_on>
+        <table>incident</table>
+        <ui_policy display_value="Priority Read-Only for Non-Managers">de02895fc34b3210f939f44ed40131f3</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>leave_alone</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=4b45cd17c38b3210f939f44ed401310a"/>
+</record_update>

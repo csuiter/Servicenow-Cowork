@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Priority Calc Tooltip - Impact Change</name>
+        <order/>
+        <script><![CDATA[function showPriorityHint() {
+    var impact = parseInt(g_form.getValue("impact")) || 2;
+    var urgency = parseInt(g_form.getValue("urgency")) || 2;
+    var p = impact + urgency - 1;
+    if (p < 1) p = 1; if (p > 5) p = 5;
+    var lbl = {1:"Critical",2:"High",3:"Moderate",4:"Low",5:"Planning"};
+    g_form.clearMessages();
+    g_form.addInfoMessage("Auto-Priority: Impact("+impact+") + Urgency("+urgency+") - 1 = " + p + " - " + lbl[p]);
+}
+function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue === "") return;
+    showPriorityHint();
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-19 03:36:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81464d97c38b3210f939f44ed4013169</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority Calc Tooltip - Impact Change</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident Priority Automation" source="x_667430_inciden_0">c49ee81bc3c73210f939f44ed401311f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident Priority Automation">c49ee81bc3c73210f939f44ed401311f</sys_scope>
+        <sys_update_name>sys_script_client_81464d97c38b3210f939f44ed4013169</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-19 03:36:45</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
